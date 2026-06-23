@@ -1,7 +1,6 @@
-"""Executor Agent — 执行器。
+"""Executor Agent — 执行器
 
 职责: 执行计划中的各步骤，调用工具、合并多源结果。
-参考 Yuxi 的 Executor 实现 + agent-service-toolkit 的工具调用模式。
 """
 
 from __future__ import annotations

@@ -1,7 +1,7 @@
-"""AgentHarness — Agent 运行管理器。
+"""
+AgentHarness — Agent 运行管理器。
 
 职责: 统一管理 Agent 生命周期、错误重试、资源管控、状态持久化。
-参考 Yuxi 的 Harness 设计 + agent-service-toolkit 的 Service 层 + LangGraph Checkpointer。
 """
 
 from __future__ import annotations

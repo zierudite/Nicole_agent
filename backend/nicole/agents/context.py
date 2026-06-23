@@ -25,7 +25,6 @@ class AgentContext:
 
     持有 Agent 运行所需的全部外部依赖：
     数据库会话、LLM 客户端、向量检索器、图谱客户端、MCP 管理器等。
-    参考 Yuxi 的 BaseContext 设计。
     """
 
     config: AgentConfig
