@@ -16,7 +16,7 @@ class BaseAgent(ABC):
     """所有 Agent 的基类。
 
     参考 Yuxi 的 BaseAgent 设计 + agent-service-toolkit 的 Pydantic 化风格。
-    每个 Agent 是一个独立的 LangGraph 节点，可被组合到 Plan-Reflection 主图中。
+    每个 Agent 是一个独立的 LangGraph 节点，可被组合到 Plan-Reflection 主图中
     """
 
     agent_id: str
